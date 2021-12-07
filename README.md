@@ -14,3 +14,6 @@
 
 
 ## If you do not wish to use open-ssh, open .sh file in nano, "nano rpi_zephyr.sh" and delete "Install open-ssh" section.
+
+<pre><code>This is a code block.
+</code></pre>
