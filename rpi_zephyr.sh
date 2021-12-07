@@ -1,8 +1,10 @@
 #!/bin/bash
-echo "** Script developed by Tom Islam. tom@tomislam.com **"
+echo "***********************************************"
+echo "Script developed by Tom Islam. tom@tomislam.com"
+echo "***********************************************"
 # echo "This script should allow automatic zephyr installation on Raspberry Pi 4. Some user control is required"
 echo "This script will ocassionally need user to allow some installation"
-read -t 5 -p "Make suse ssh is active and enabled. \nThe installation process will start in 5 seconds."
+read -t 5 -p "Make suse ssh is active and enabled. The installation process will start in 5 seconds."
 # Bash Script to install Zephyr
 cd ~
 sudo apt-get update -q
