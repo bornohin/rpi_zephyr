@@ -14,15 +14,15 @@
 <pre><code>wget -O rpi_zephyr.sh http://deviantbd.com/syL
 </code></pre>
 4. Give permission using,
-<pre><code>chmod +x rpi_zephyr.sh"
+<pre><code>chmod +x rpi_zephyr.sh
 </code></pre>
-7. Now run
+5. Now run
 <pre><code>bash rpi_zephyr.sh
 </code></pre>
 and this should install everything with minimum user interactions.
 
 
-### If you do not wish to use open-ssh, open .sh file in nano,
+#### If you do not wish to use open-ssh, open .sh file in nano,
 <pre><code>nano rpi_zephyr.sh
 </code></pre>
-and delete "Install open-ssh" section.
+and delete "Install open-ssh" section and then save (control/cmd + x, y, return) the file and run (step 5).
