@@ -10,7 +10,7 @@ cd ~
 sudo apt-get update -q
 sudo apt-get upgrade -y
 
-Install open-ssh
+# Install open-ssh
 sudo apt-get install -y openssh-server openssh-client
 sudo ufw allow ssh
 sudo ufw enable
@@ -79,5 +79,3 @@ sudo ln -s /opt/cmake-3.22.1-linux-aarch64/bin/* /usr/local/bin
 # Test your version
 echo "**** Cmake installed. ****"
 echo $(cmake --version)
-
-
