@@ -42,7 +42,7 @@ sudo cp ~/zephyr-sdk-0.13.1/sysroots/aarch64-pokysdk-linux/usr/share/openocd/con
 sudo udevadm control –reload
 
 # Install west and initialize a new Zephyr project
-pip3 install --user -U west
+sudo pip3 install --user -U west
 echo 'export PATH=~/.local/bin:"$PATH"' >> ~/.bashrc
 source ~/.bashrc
 
